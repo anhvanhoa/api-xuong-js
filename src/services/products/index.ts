@@ -1,5 +1,5 @@
-import products from '~/models/products';
-import { fieldProduct } from '~/type';
+import products from '../../models/products';
+import { fieldProduct } from '../../type';
 
 const productsService = {
     create: async (product: fieldProduct) => await products.create(product),

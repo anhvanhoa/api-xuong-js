@@ -1,9 +1,9 @@
 // import module
 import express from 'express';
 import dotenv from 'dotenv';
-import configMorgan from '~/config/morgan';
-import routers from '~/routers';
-import connectDb from '~/config/connectDb';
+import configMorgan from './config/morgan';
+import routers from './routers';
+import connectDb from './config/connectDb';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
 //config express

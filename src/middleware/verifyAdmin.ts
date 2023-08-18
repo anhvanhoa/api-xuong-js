@@ -1,7 +1,6 @@
-import verifyAccessToken from '~/middleware/verifyAccessToken';
-import refreshToken from '~/models/refreshToken';
+import verifyAccessToken from './verifyAccessToken';
 import { Request, Response, NextFunction } from 'express';
-import { PropsJwt } from '~/type';
+import { PropsJwt } from '../type';
 interface TypeRequest extends Request {
     user?: PropsJwt;
 }

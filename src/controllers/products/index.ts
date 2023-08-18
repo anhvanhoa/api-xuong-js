@@ -1,7 +1,7 @@
 import { Response, Request } from 'express';
-import productsDB from '~/models/products';
-import productsService from '~/services/products';
-import { fieldProduct } from '~/type';
+import productsDB from '../../models/products';
+import productsService from '../../services/products';
+import { fieldProduct } from '../../type';
 class products {
     async getAll(req: Request, res: Response) {
         const query = req.query;

@@ -1,6 +1,6 @@
-import accounts from '~/models/accounts';
+import accounts from '../../models/accounts';
 import bcrypt from 'bcrypt';
-import { fieldUser } from '~/type';
+import { fieldUser } from '../../type';
 
 const accountService = {
     register: async (user: fieldUser) => {

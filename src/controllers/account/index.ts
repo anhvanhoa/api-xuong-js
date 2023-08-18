@@ -1,10 +1,10 @@
 import { Response, Request } from 'express';
-import accounts from '~/models/accounts';
-import refreshTokenModels from '~/models/refreshToken';
+import accounts from '../../models/accounts';
+import refreshTokenModels from '../../models/refreshToken';
 import bcrypt from 'bcrypt';
-import { PropsJwt } from '~/type';
-import generateAccessToken from '~/utils/generateAccessToken';
-import generateRefreshToken from '~/utils/generateRefreshToken';
+import { PropsJwt } from '../../type';
+import generateAccessToken from '../../utils/generateAccessToken';
+import generateRefreshToken from '../../utils/generateRefreshToken';
 import jwt from 'jsonwebtoken';
 
 class account {

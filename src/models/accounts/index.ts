@@ -1,5 +1,5 @@
 import mongoose, { Schema } from 'mongoose';
-import { fieldUser } from '~/type';
+import { fieldUser } from '../../type';
 
 const accounts = new Schema<fieldUser>(
     {

@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import { PropsJwt } from '~/type';
+import { PropsJwt } from '../type';
 interface TypeRequest extends Request {
     user?: PropsJwt;
 }

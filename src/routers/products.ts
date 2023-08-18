@@ -1,6 +1,6 @@
 import express from 'express';
-import controllerProduct from '~/controllers/products';
-import verifyAdmin from '~/middleware/verifyAdmin';
+import controllerProduct from '../controllers/products';
+import verifyAdmin from '../middleware/verifyAdmin';
 const products = express.Router();
 
 products.get('/', controllerProduct.getAll);
